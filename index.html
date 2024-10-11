@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <h1>Editkaro.in - Portfolio</h1>
+        <p>Explore our range of creative work across multiple categories</p>
+        <nav>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="filter-bar">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="shortform">Short-form</button>
+        <button class="filter-btn" data-category="longform">Long-form</button>
+        <button class="filter-btn" data-category="gaming">Gaming Videos</button>
+        <button class="filter-btn" data-category="football">Football Edits</button>
+        <button class="filter-btn" data-category="ecommerce">E-Commerce Ads</button>
+        <button class="filter-btn" data-category="documentary">Documentary Style</button>
+        <button class="filter-btn" data-category="anime">Anime Videos</button>
+        <button class="filter-btn" data-category="ads">Ads</button>
+    </div>
+
+    <section class="portfolio-grid">
+        <div class="portfolio-item" data-category="shortform">
+            <video class="preview-video" muted>
+                <source src="shortform.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Short-form Video</p>
+        </div>
+        
+        <div class="portfolio-item" data-category="longform">
+            <video class="preview-video" muted>
+                <source src="longform.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Long-form Video</p>
+        </div>
+        
+        <div class="portfolio-item" data-category="gaming">
+            <video class="preview-video" muted>
+                <source src="gaming.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Gaming Video</p>
+        </div>
+        
+        <div class="portfolio-item" data-category="football">
+            <video class="preview-video" muted>
+                <source src="football.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Football Edits</p>
+        </div>
+        
+        <div class="portfolio-item" data-category="ecommerce">
+            <video class="preview-video" muted>
+                <source src="ecommerce.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>E-Commerce Ads</p>
+        </div>
+        
+        <div class="portfolio-item" data-category="documentary">
+            <video class="preview-video" muted>
+                <source src="documentary.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Documentary Style</p>
+        </div>
+        
+        <div class="portfolio-item" data-category="anime">
+            <video class="preview-video" muted>
+                <source src="anime.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Anime Video</p>
+        </div>
+        
+        <div class="portfolio-item" data-category="ads">
+            <video class="preview-video" muted>
+                <source src="ads.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Ads</p>
+        </div>
+    </section>
+
+    <section class="email-collector">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form id="email-form">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
